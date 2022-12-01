@@ -5,11 +5,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--=============== GSAP ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
+        integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Saawn </title>
 </head>
 
 <body>
+    <!--=============== HEADER ===============-->
+    <header class="header " id="header">
+        <nav class="nav">
+            <div class="nav__bar">
+                <div class="nav__brand">
+                    <a href="index.html" class="nav__logo"> <img src="./assets/img/logo.png" alt="logo"> </a>
+                </div>
+                <div class="nav__menu-container">
+                    <div class="button" onclick="toggle()"><i class="nav__menu-icon fas fa-bars"></i></div>
+                </div>
+            </div>
+        </nav>
 
+    </header>
+    <div class="menu-hidden">
+        <nav class="nav">
+            <div class="nav__bar">
+                <div class="nav__brand">
+                    <a href="index.html" class="nav__logo"> <img src="./assets/img/logo.png" alt="logo"> </a>
+                </div>
+                <div class="nav__menu-container">
+                    <div class="button" onclick="togglec()"><i class="nav__menu-icon fas fa-times"></i></div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="menu-hidden__container">
+            <div class="menu-hidden__list">
+                <ul class="ul">
+                    <li class="li1 li"><a rel="noopener noreferrer" href="">Home</a></li>
+                    <li class="li2 li"><a rel="noopener noreferrer" href="">About</a></li>
+                    <li class="li3 li"><a rel="noopener noreferrer" href="">Blog</a>
+                    </li>
+                    <li class="li4 li"><a rel="noopener noreferrer" href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="menu-hidden__social">
+                <p class="menu-hidden__social-st">GET IN TOUCH </p>
+                <ul>
+                    <li class="social-li"><a target="_blank" rel="noopener noreferrer"
+                            href="https://www.instagram.com/checkvalorant/">hello@saawn.me</a></li>
+                    <li class="social-li"><a target="_blank" rel="noopener noreferrer"
+                            href="https://www.instagram.com/checkvalorant/">+91 6207802116</a></li><br>
+                    <li class="social-li"><a target="_blank" rel="noopener noreferrer"
+                            href="https://www.instagram.com/checkvalorant/">instagram</a></li>
+                    <li class="social-li"><a target="_blank" rel="noopener noreferrer"
+                            href="https://twitter.com/checkvalorant/">twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="card-stuff">
+                <div class="card-swiper">
+                    <div class="card-groups">
+                        <div class="card-group" data-index="0" data-status="active">
+                            <div class="little-card card">
+
+                            </div>
+                            <div class="big-card card">
+
+                            </div>
+                            <div class="little-card card">
+
+                            </div>
+                            <div class="big-card card">
+
+                            </div>
+                            <div class="little-card card">
+
+                            </div>
+                            <div class="big-card card">
+
+                            </div>
+                            <div class="little-card card">
+
+                            </div>
+                            <div class="big-card card">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src=""></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
